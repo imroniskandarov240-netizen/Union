@@ -1,0 +1,53 @@
+.news{
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-h2-1{
+        position: absolute;
+        margin-top: 750px;
+        margin-left: -750px;
+        font-family: 'advent pro';
+        font-size: 35px;
+    }
+
+    &-plane{
+        position: absolute;
+        width: 900px;
+        height: 400px;
+        position: absolute;
+        margin-top: 1300px;
+        margin-top: 1200px;
+    }
+
+    &-h2-2{
+        position: absolute;
+margin-top: 1550px;
+white-space-collapse: break-spaces;
+margin-left: -550px;
+font-family: 'advent pro';
+font-size: 30px;
+color: white;
+    }
+
+    &-btn{
+        width: 130px;
+        height: 40px;
+        background-color: #1877f2;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        font-family: 'advent pro';
+        font-size: 20px;
+        margin-top: 730px;
+        margin-left: 770px;
+        transition: all 0.4s linear;
+    }
+}
+
+.news-btn:hover{
+    background-color: black;
+    color: white;
+}

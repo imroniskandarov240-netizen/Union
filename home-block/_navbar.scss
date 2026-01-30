@@ -1,0 +1,84 @@
+.navbar{
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    width: 980px;
+    height: 68px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-logo{
+        position: absolute;
+        margin-left: -650px;
+    }
+
+    &-a1{
+        text-decoration: none;
+        color: #1877f2;
+        font-family: 'Advent Pro';
+        font-size: 20px;
+        margin-left: 300px;
+        transition: all 0.3s linear;
+    }
+
+    &-a2{
+        text-decoration: none;
+        color: #1877f2;
+        font-family: 'Advent Pro';
+        font-size: 20px;
+        margin-left: 25px;
+        transition: all 0.3s linear;
+    }
+
+    &-a3{
+        text-decoration: none;
+        color: #1877f2;
+        font-family: 'Advent Pro';
+        font-size: 20px;
+        margin-left: 25px;
+        transition: all 0.3s linear;
+    }
+
+    &-a4{
+        text-decoration: none;
+        color: #1877f2;
+        font-family: 'advent pro';
+        font-size: 20px;
+        margin-left: 25px;
+        transition: all 0.3s linear;
+    }
+
+    &-btn{
+        width: 150px;
+        height: 40px;
+        background-color: #1877f2;
+        font-family: 'advent pro';
+        color: white;
+        margin-left: 70px;
+        border: none;
+        border-radius: 30px;
+        transition: all 0.4s linear;
+    }
+}
+
+.navbar-btn:hover{
+    background-color: white;
+    color: #1877f2;
+}
+
+.navbar-a1:hover{
+    color: black;
+}
+
+.navbar-a2:hover{
+    color: black;
+}
+
+.navbar-a3:hover{
+    color: black;
+}
+
+.navbar-a4:hover{
+    color: black;
+}

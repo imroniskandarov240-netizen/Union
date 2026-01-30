@@ -1,0 +1,292 @@
+.navbar {
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  width: 980px;
+  height: 68px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-logo {
+  position: absolute;
+  margin-left: -650px;
+}
+.navbar-a1 {
+  text-decoration: none;
+  color: #1877f2;
+  font-family: "Advent Pro";
+  font-size: 20px;
+  margin-left: 300px;
+  transition: all 0.3s linear;
+}
+.navbar-a2 {
+  text-decoration: none;
+  color: #1877f2;
+  font-family: "Advent Pro";
+  font-size: 20px;
+  margin-left: 25px;
+  transition: all 0.3s linear;
+}
+.navbar-a3 {
+  text-decoration: none;
+  color: #1877f2;
+  font-family: "Advent Pro";
+  font-size: 20px;
+  margin-left: 25px;
+  transition: all 0.3s linear;
+}
+.navbar-a4 {
+  text-decoration: none;
+  color: #1877f2;
+  font-family: "advent pro";
+  font-size: 20px;
+  margin-left: 25px;
+  transition: all 0.3s linear;
+}
+.navbar-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #1877f2;
+  font-family: "advent pro";
+  color: white;
+  margin-left: 70px;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.4s linear;
+}
+
+.navbar-btn:hover {
+  background-color: white;
+  color: #1877f2;
+}
+
+.navbar-a1:hover {
+  color: black;
+}
+
+.navbar-a2:hover {
+  color: black;
+}
+
+.navbar-a3:hover {
+  color: black;
+}
+
+.navbar-a4:hover {
+  color: black;
+}
+
+.intro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-cityimg {
+  width: 900px;
+  height: 580px;
+  margin-top: 30px;
+}
+.intro-h1 {
+  position: absolute;
+  font-family: "advent pro";
+  font-size: 60px;
+  white-space-collapse: break-spaces;
+  color: white;
+  margin-left: -300px;
+  margin-top: -230px;
+}
+.intro-p1 {
+  position: absolute;
+  font-family: "advent pro";
+  font-size: 30px;
+  white-space-collapse: break-spaces;
+  color: white;
+  margin-top: 100px;
+  margin-left: -450px;
+}
+.intro-div1 {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 300px;
+  height: 160px;
+  margin-left: 530px;
+  margin-top: -300px;
+  border-radius: 30px;
+}
+.intro-p2 {
+  position: absolute;
+  color: #1b1b1b;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: "advent pro";
+}
+.intro-p3 {
+  white-space-collapse: break-spaces;
+  color: #1b1b1b;
+  margin-left: 70px;
+  margin-top: 70px;
+  font-family: "advent pro";
+  font-size: 20px;
+}
+.intro-div2 {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 300px;
+  height: 160px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.intro-div3 {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-top: 230px;
+  margin-left: -100px;
+  width: 408px;
+  height: 170px;
+  border-radius: 20px;
+}
+.intro-cards {
+  margin-left: 30px;
+  margin-top: 15px;
+  height: 150px;
+}
+.intro-btn {
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-top: 300px;
+  margin-left: -485px;
+  border: none;
+  font-family: "advent pro";
+  border-radius: 30px;
+  transition: all 0.4s linear;
+}
+
+.intro-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.news {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-h2-1 {
+  position: absolute;
+  margin-top: 750px;
+  margin-left: -750px;
+  font-family: "advent pro";
+  font-size: 35px;
+}
+.news-plane {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  margin-top: 1300px;
+  margin-top: 1200px;
+}
+.news-h2-2 {
+  position: absolute;
+  margin-top: 1550px;
+  white-space-collapse: break-spaces;
+  margin-left: -550px;
+  font-family: "advent pro";
+  font-size: 30px;
+  color: white;
+}
+.news-btn {
+  width: 130px;
+  height: 40px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: "advent pro";
+  font-size: 20px;
+  margin-top: 730px;
+  margin-left: 770px;
+  transition: all 0.4s linear;
+}
+
+.news-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.team {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-h2-1 {
+  position: absolute;
+  color: black;
+  margin-top: 1800px;
+  margin-left: -680px;
+  font-family: "advent pro";
+  font-size: 35px;
+}
+.team-man {
+  margin-top: 2400px;
+  margin-left: -1px;
+}
+.team-woman {
+  margin-top: 2400px;
+  margin-left: 30px;
+}
+.team-woman2 {
+  margin-top: 2400px;
+  margin-left: 30px;
+}
+.team-dot {
+  position: absolute;
+  margin-top: 2900px;
+  margin-left: 200px;
+}
+
+.geo {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.geo-uzb {
+  position: absolute;
+  width: 500px;
+  margin-top: 3600px;
+  margin-left: -1350px;
+}
+.geo-tosh {
+  position: absolute;
+  margin-top: 3500px;
+  font-family: "advent pro";
+  font-size: 40px;
+  margin-left: -700px;
+}
+.geo-p1 {
+  position: absolute;
+  white-space-collapse: break-spaces;
+  margin-top: 3700px;
+  margin-left: -380px;
+}
+.geo-btn {
+  width: 150px;
+  height: 40px;
+  margin-top: 3950px;
+  margin-left: -680px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  font-family: "advent pro";
+  border-radius: 30px;
+}/*# sourceMappingURL=style.css.map */

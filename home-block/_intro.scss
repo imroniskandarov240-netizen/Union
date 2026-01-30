@@ -1,0 +1,116 @@
+.intro{
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+    &-cityimg{
+        width: 900px;
+        height: 580px;
+        margin-top: 30px;
+        
+    }
+
+    &-h1{
+        position: absolute;
+        font-family: 'advent pro';
+        font-size: 60px;
+        white-space-collapse: break-spaces;
+        color: white;
+        margin-left: -300px;
+        margin-top: -230px;
+    }
+
+    &-p1{
+        position: absolute;
+        font-family: 'advent pro';
+        font-size: 30px;
+        white-space-collapse: break-spaces;
+        color: white;
+        margin-top: 100px;
+        margin-left: -450px;
+    }
+
+    &-div1{
+        position: absolute;
+        background-color: whitesmoke;
+        // opacity: 0.1;
+        width: 300px;
+        height: 160px;
+        margin-left: 530px;
+        margin-top: -300px;
+        border-radius: 30px;
+    
+    }
+
+    &-p2{
+        position: absolute;
+        color: #1b1b1b;
+        font-size: 40px;
+        margin-left:100px;
+        margin-top: 10px;
+        font-family: 'advent pro';
+    }
+
+    &-p3{
+        white-space-collapse: break-spaces;
+        color: #1b1b1b;
+        margin-left: 70px;
+        margin-top: 70px;
+        font-family: 'advent pro';
+        font-size: 20px;
+    }
+
+    &-div2{
+      
+        position: absolute;
+        background-color: whitesmoke;
+        width: 300px;
+        height: 160px;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+
+    &-div3{
+        position: absolute;
+        background-color: whitesmoke;
+        margin-top: 230px;
+        margin-left: -100px;
+        width: 408px;
+        height: 170px;
+        border-radius: 20px;
+    }
+
+    &-cards{
+        margin-left: 30px;
+        margin-top: 15px;
+        height: 150px;
+    }
+
+    &-btn{
+        background-color: white;
+        color: black;
+        width: 150px;
+        height: 50px;
+        margin-top: 300px;
+        margin-left: -485px;
+        border: none;
+        font-family: 'advent pro';
+border-radius: 30px;
+transition: all 0.4s linear;
+
+    }
+}
+
+.intro-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+

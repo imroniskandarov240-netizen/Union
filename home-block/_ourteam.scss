@@ -1,0 +1,37 @@
+.team{
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-h2-1{
+        position: absolute;
+        color: black;
+        margin-top: 1800px;
+        margin-left: -680px;
+        font-family: 'advent pro';
+        font-size: 35px;
+    }
+
+    &-man{
+        margin-top: 2400px;
+        margin-left: -1px;
+    }
+
+    &-woman{
+        margin-top: 2400px;
+        margin-left: 30px;
+    }
+
+    &-woman2{
+        margin-top: 2400px;
+        margin-left: 30px;
+    }
+
+    &-dot{
+        position: absolute;
+        margin-top: 2900px;
+        margin-left: 200px;
+    }
+}

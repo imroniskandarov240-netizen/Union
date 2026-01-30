@@ -1,0 +1,40 @@
+.geo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-uzb{
+        position: absolute;
+        width: 500px;
+        margin-top: 3600px;
+        margin-left: -1350px;
+    }
+
+    &-tosh{
+        position: absolute;
+        margin-top: 3500px;
+        font-family: 'advent pro';
+        font-size: 40px;
+        margin-left: -700px;
+    }
+
+    &-p1{
+        position: absolute;
+        white-space-collapse: break-spaces;
+        margin-top: 3700px;
+        margin-left: -380px;
+    }
+
+    &-btn{
+        width: 150px;
+        height: 40px;
+        margin-top: 3950px;
+        margin-left: -680px;
+        border: none;
+        background-color: #1877f2;
+        color: white;
+        font-family: 'advent pro';
+        border-radius: 30px;
+    }
+}
