@@ -1,0 +1,67 @@
+.client{
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-h2{
+        position: absolute;
+        top: 2730px;
+        font-family: 'advent pro';
+        font-size: 35px;
+        margin-left: -640px;
+    }
+
+    &-woman{
+        position: absolute;
+        top: 2850px;
+        margin-left: -600px;
+    }
+
+    &-h2-1{
+        position: absolute;
+        top: 3100px;
+        margin-left: -600px;
+        color: white;
+        font-family: 'advent pro';
+    }
+
+    &-h2-2{
+        position: absolute;
+        top: 3150px;
+        margin-left: -600px;
+        color: white;
+        font-family: 'advent pro';
+    }
+
+    &-div1{
+        position: absolute;
+        top: 2850px;
+        background-color: whitesmoke;
+        width: 580px;
+        height: 360px;
+        margin-left: 400px;
+        border-radius: 10px;
+        border-color: gray;
+        border: 10px;
+    }
+
+    &-kogt2{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    &-p2{
+        position: absolute;
+        color: #1877f2;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+
+    &-kogt3{
+        position: absolute;
+        margin-left: 360px;
+        margin-top: 280px;
+    }
+}

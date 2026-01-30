@@ -1,0 +1,36 @@
+.product{
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-h2{
+        position: absolute;
+        font-family: 'advent pro';
+        top: 2100px;
+        font-size: 45px;
+        margin-left: -700px;
+    }
+
+    &-cards1{
+        width: 700px;
+        position: absolute;
+        top: 2160px;
+        margin-left: 250px;
+    }
+
+    &-wildbr{
+        width: 250px;
+        height: 210px;
+        position: absolute;
+        top: 2200px;
+        margin-left: -740px;
+    }
+
+    &-cards3{
+        position: absolute;
+        top: 2450px;
+        width: 970px;
+    }
+}

@@ -19,7 +19,7 @@
         font-family: 'Advent Pro';
         font-size: 20px;
         margin-left: 300px;
-        transition: all 0.3s linear;
+      transition: all 0.4s linear;
     }
 
     &-a2{
@@ -62,10 +62,11 @@
     }
 }
 
-.navbar-btn:hover{
-    background-color: white;
-    color: #1877f2;
+.navbar-a1:hover{
+    background-color: black;
+   
 }
+
 
 .navbar-a1:hover{
     color: black;

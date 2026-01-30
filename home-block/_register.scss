@@ -1,0 +1,82 @@
+.reg{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-h2{
+        position: absolute;
+        margin-top: 600px;
+        margin-left: -380px;
+        font-family: 'advent pro';
+        font-size: 30px;
+    }
+
+    &-ip1{
+        position: absolute;
+        background-color: whitesmoke;
+        width: 400px;
+        height: 30px;
+        top: 400px;
+        margin-left: -200px;
+        border: none;
+        border-radius: 5px;
+        color: gray;
+    }
+
+    &-ip2{
+          position: absolute;
+        background-color: whitesmoke;
+        width: 400px;
+        height: 30px;
+        top: 470px;
+        margin-left: -200px;
+        border: none;
+        border-radius: 5px;
+        color: gray;
+    }
+
+    &-ip3{
+          position: absolute;
+        background-color: whitesmoke;
+        width: 400px;
+        height: 30px;
+        top: 540px;
+        margin-left: -200px;
+        border: none;
+        border-radius: 5px;
+        color: gray;
+    }
+
+    &-ip4{
+        position: absolute;
+        background-color: whitesmoke;
+        width: 400px;
+        height: 100px;
+        top: 610px;
+        margin-left: -200px;
+        border: none;
+        border-radius: 5px;
+        color: gray;
+    }
+
+    &-btn{
+        position: absolute;
+        margin-top: 1400px;
+        margin-left: -200px;
+        width: 400px;
+        height: 40px;
+        color: white;
+        font-family: 'advent pro';
+        background-color: #1877f2;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+.operator{
+    position: absolute;
+    width: 500px;
+    margin-top: 950px;
+    margin-left: 800px;
+}

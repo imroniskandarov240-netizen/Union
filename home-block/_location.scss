@@ -1,4 +1,5 @@
 .geo{
+    position: absolute;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -6,35 +7,44 @@
 
     &-uzb{
         position: absolute;
-        width: 500px;
-        margin-top: 3600px;
-        margin-left: -1350px;
+        width: 350px;
+        height: 250px;
+       top: 1650px;
+       left: -470px;
     }
 
     &-tosh{
         position: absolute;
-        margin-top: 3500px;
+        top: 1650px;
+        margin-left: 250px;
         font-family: 'advent pro';
         font-size: 40px;
-        margin-left: -700px;
     }
 
     &-p1{
         position: absolute;
         white-space-collapse: break-spaces;
-        margin-top: 3700px;
-        margin-left: -380px;
+        font-family: 'advent pro';
+        top: 1800px;
+        left: -60px;
     }
 
     &-btn{
         width: 150px;
-        height: 40px;
-        margin-top: 3950px;
-        margin-left: -680px;
-        border: none;
+        height: 50px;
+        position:absolute;
+        top: 1950px;
+        margin-left: 5px;
         background-color: #1877f2;
         color: white;
+        border: none;
         font-family: 'advent pro';
-        border-radius: 30px;
+        border-radius: 20px;
+        transition: all 0.4s linear;
     }
+}
+
+.geo-btn:hover{
+    background-color: black;
+    color: white;
 }

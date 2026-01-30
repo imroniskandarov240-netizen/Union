@@ -1,0 +1,55 @@
+.foot{
+    width: 950px;
+    position: absolute;
+    height: 294px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1877f2;
+    margin-top: 800px;
+    margin-left: 5px;
+    border-radius: 20px;
+
+    &-logo{
+        position: absolute;
+        top: 50px;
+        margin-left: -600px;
+    }
+
+    &-p1{
+        white-space-collapse: break-spaces;
+        color: white;
+        margin-left: -420px;
+        margin-top: 10px;
+    }
+
+    &-icons{
+        position: absolute;
+        margin-top: 120px;
+        margin-left: -730px;
+    }
+
+    &-p2{
+        position: absolute;
+        color: white;
+        gap: 20px;
+        white-space-collapse: break-spaces;
+        margin-left: 200px;
+        font-family: 'advent pro';
+    }
+
+    &-p3{
+        position: absolute;
+        color: white;
+        white-space-collapse: break-spaces;
+        margin-left: 650px;
+        font-family: 'advent pro';
+    }
+
+    &-p4{
+        color: white;
+        margin-top: 200px;
+        font-family: 'advent pro';
+    }
+}
