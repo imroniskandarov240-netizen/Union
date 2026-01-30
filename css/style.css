@@ -585,6 +585,7 @@
   font-family: "advent pro";
 }
 .foot-p4 {
+  position: absolute;
   color: white;
   margin-top: 200px;
   font-family: "advent pro";
